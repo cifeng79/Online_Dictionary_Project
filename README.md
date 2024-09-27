@@ -26,10 +26,10 @@
 
 // 定义通信结构体
 typedef struct {
-	int type;
-	char name[N];
-	char data[256];
-	int flags;
+	int type;//消息类型
+	char name[N];//用户名
+	char data[256];//data
+	int flags;//用于判断是否为超级用户
 }MSG;
 ```
 ## 四、服务端和客户端框架代码搭建
