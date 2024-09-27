@@ -17,7 +17,7 @@
 
 #define  DATABASE  "my.db"
 
-// 定义通信双方的信息结构体
+// 定义通信结构体
 typedef struct {
 	int type;
 	char name[N];
